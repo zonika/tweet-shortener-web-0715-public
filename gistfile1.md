@@ -4,7 +4,7 @@ A client has hired you to automatically post some of their brand messages to twi
 
 Write a method that will take a tweet, search it for words that you can substitute, and return a substituted string tweet. For instance, the tweet "Hello to you, I'm at home" would become "Hi 2 u, I'm @ home". The client has provided the following acceptable substitutes.
 
-`"to, two, too" => '2', "for, four" => '4', 'be' => 'b', 'you' => 'u', "at" => "@", "and" => "&"`
+`"to, two, too" become '2', "for, four" become '4', 'be' becomes 'b', 'you' becomes 'u', "at" becomes "@", "and" becomes "&"`
 
 and here is the list of tweets:
 
@@ -15,5 +15,19 @@ and here is the list of tweets:
 
 **Objectives**
 
-1. **Write a method to shorten a string based on the allowed substitutes**
-2. 
+1. Write a method to shorten a string based on the allowed substitutes
+2. Write a method that iterates over the list of tweets, shortens them, and prints the results to the screen
+
+`hint: you'll need a way to look up each word and see if it has a substitution`
+
+Now the client has come back to you. They love the program, but they noticed that even tweets that are under 140 characters are being shortened. Now they want you to only shorten the tweet if it's too long.
+
+**Objectives**
+
+1. Modify your program to only do the substitutions if the tweet is longer than 140 characters
+
+Things are going great, but you're noticing that some tweets are too long still, even after substituting shorter words. Being the conscientious developer that you are, you talk to the client about this scenario and decide together that the best thing to do is just truncate the string to 140 characters if it's still too long after you do the substitution.
+
+**Objectives**
+
+1. Modify your program to truncate the tweet to 140 characters if it's still too long after substitution
