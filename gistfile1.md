@@ -4,20 +4,20 @@ A client has hired you to automatically post some of their brand messages to twi
 
 Write a method that will take a tweet, search it for words that you can substitute, and return a substituted string tweet. For instance, the tweet "Hello to you, I'm at home" would become "Hi 2 u, I'm @ home". The client has provided the following acceptable substitutes.
 ```
-    "to, two, too" become '2', 
-    "for, four" become '4', 
-    'be' becomes 'b', 
-    'you' becomes 'u', 
-    "at" becomes "@", 
-    "and" becomes "&"`
+"to, two, too" become '2', 
+"for, four" become '4', 
+'be' becomes 'b', 
+'you' becomes 'u', 
+"at" becomes "@", 
+"and" becomes "&"`
 ```
 
 and here is the list of tweets:
 
-`"Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!",
-"OMG you guys, you won't believe how sweet my kitten is. My kitten is like super cuddly and too cute to be believed right?",
-"I'm running out of example tweets for you guys, which is weird, because I'm a writer and this is just writing and I tweet all day. For real, you guys. For real.",
-"GUISEEEEE this is so fun! I'm tweeting for you guys and this tweet is SOOOO long it's gonna be way more than you would think twitter can handle, so shorten it up you know what I mean? Spencer is looking at me right now as if I stole his cat. Glad this part won't make it to Twitter."`
+1. "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
+2. "OMG you guys, you won't believe how sweet my kitten is. My kitten is like super cuddly and too cute to be believed right?",
+"I'm running out of example tweets for you guys, which is weird, because I'm a writer and this is just writing and I tweet all day. For real, you guys. For real."
+3. "GUISEEEEE this is so fun! I'm tweeting for you guys and this tweet is SOOOO long it's gonna be way more than you would think twitter can handle, so shorten it up you know what I mean? Spencer is looking at me right now as if I stole his cat. Glad this part won't make it to Twitter."
 
 **Objectives**
 
