@@ -1,4 +1,8 @@
-**Tweet Shortener**
+---
+  languages: ruby
+---
+
+#Tweet Shortener
 
 A client has hired you to automatically post some of their brand messages to twitter, but the problem is that some of them are too long. Your job is to shorten them by replacing longer words with shorter representations (i.e. "two" becomes "2").
 
