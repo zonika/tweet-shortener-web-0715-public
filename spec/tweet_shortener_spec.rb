@@ -62,17 +62,17 @@ describe 'tweet shortener' do
       expect(selective_tweet_shortener(tweet_three_long).to eq(tweet_three_short)
       expect(selective_tweet_shortener(tweet_four_long)).to eq(tweet_four_long)
     end
-
-    it 'should not shorten tweets shorter than 140 characters'
   end
 
+  # Question 4
   describe '#shortened_tweet_truncater' do
     let(:tweet_three_truncated) {"GUISEEEEE this is so fun! I'm tweeting 4 u guys & this tweet is SOOOO long it's gonna b way more than u would think twitter can handle, ..."}
+    
     it 'should truncate tweets over 140 characters after shortening' do
       expect(shortened_tweet_truncater(tweet_three_long)).to eq(tweet_three_truncated)
     end
 
-    it 'should not truncate tweets shorter than 140.' do
+    it 'should not truncate tweets shorter than 140 characters.' do
       expect(shortened_tweet_truncater(tweet_one_short)).to eq(tweet_one_short) 
     end
   end
