@@ -35,7 +35,7 @@ and here is the list of tweets:
 
 2. Write a method that iterates over the list of tweets, shortens them, and prints the results to the screen
 
-`hint: you'll need a way to look up each word and see if it has a substitution`
+hint: you'll need a way to look up each word and see if it has a substitution
 
 Now the client has come back to you. They love the program, but they noticed that even tweets that are under 140 characters are being shortened. Now they want you to only shorten the tweet if it's too long.
 
