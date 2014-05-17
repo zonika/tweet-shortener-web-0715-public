@@ -15,6 +15,7 @@ A client has hired you to automatically post some of their brand messages to twi
 You'll want to write a method that will take a tweet, search it for words that you can substitute, and return a substituted string tweet. For instance, the tweet "Hello to you, I'm at home" would become "Hi 2 u, I'm @ home". The client has provided the following acceptable substitutes.
 
 ```
+"hello" becomes 'hi'
 "to, two, too" become '2' 
 "for, four" become '4'
 'be' becomes 'b'
