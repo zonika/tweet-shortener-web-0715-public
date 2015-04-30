@@ -50,6 +50,3 @@ and here is the list of tweets:
   
 4. Write another method that truncates the tweet to 140 characters with an ellipsis if it's still too long after substitution. E.g. "Random Passage satisfies the craving for those details that ..."
 
-## Resources
-* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [Changing Strings with Patterns](http://books.flatironschool.com/books/11), page 110
-* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [Enumerable Module: include?](http://books.flatironschool.com/books/11), page 465
